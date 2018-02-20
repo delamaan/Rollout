@@ -15,11 +15,11 @@ var sceneTitle = {
   key: 'title',
   active: true,
   preload: function() {
-    this.load.image('tile', 'tile.png');
-    this.load.image('title', 'title.png');
-    this.load.image('how_to', 'how_to.png');
-    this.load.image('particle', 'GrubbaParticle.png');
-    this.load.image('grubba', 'Grubba2.png');
+    this.load.image('tile', 'sprites/tile.png');
+    this.load.image('title', 'sprites/title.png');
+    this.load.image('how_to', 'sprites/how_to.png');
+    this.load.image('particle', 'sprites/GrubbaParticle.png');
+    this.load.image('grubba', 'sprites/Grubba2.png');
   },
   create: function() {
     this.add.tileSprite(
@@ -63,10 +63,10 @@ var sceneConfig = {
   width: 1200,
   height: 800,
   preload: function() {
-    this.load.image('tile', 'tile.png');
-    this.load.image('platform', 'platform.png');
-    this.load.image('particle', 'GrubbaParticle.png');
-    this.load.image('grubba', 'Grubba2.png');
+    this.load.image('tile', 'sprites/tile.png');
+    this.load.image('platform', 'sprites/platform.png');
+    this.load.image('particle', 'sprites/GrubbaParticle.png');
+    this.load.image('grubba', 'sprites/Grubba2.png');
   },
   create: function() {
     this.add.tileSprite(
